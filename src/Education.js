@@ -31,27 +31,25 @@ function Education() {
                 </div>
                 <div>
                     <div className="edu-degree">
-                        <h1>Degree Received</h1>
+                         
                         <div className="bachelors">
                             <img className="college-img" src={collegeLogo} alt="College Logo" />
                             <div className="college-heading">
                                 <div className="Title">
-                                    <h2>Jiwaji University, Gwalior</h2>
-                                    <p>2019-22</p>
+                                    <h2> UIT-RGPV</h2>
+                                    <p> SEP 2022-PRESENT</p>
                                 </div>
                                 <div className="duration">
-                                    <p>Bachelors of Arts</p>
+                                    <p>Bachelors of Technology in Electronics and Communication Engineering</p>
                                 </div>
                                 <div className="content">
                                     <p>
-                                        Despite my background in arts, I have pursued various courses in Political science and sociology in various topics like Artificial Intelligence And Ethics, Blockchain and Social Trust.
+                                        Despite my background in Electronic and Communication, I have pursued various courses in various topics like Artificial Intelligence And Ethics, Blockchain and Social Trust.
                                     </p>
                                     <br />
-                                    <p>
-                                        During my university tenure, I was actively involved in the multimedia department, where I contributed to the creation of documentary films and interviews.
-                                    </p>
+                                     
                                     <div className="button">
-                                        <a className="button1" href="https://jiwaji.edu/" target="_blank" rel="noopener noreferrer">
+                                        <a className="button1" href="https://www.uitrgpv.ac.in/" target="_blank" rel="noopener noreferrer">
                                             Visit website
                                         </a>
                                     </div>
@@ -60,38 +58,7 @@ function Education() {
                         </div>
                     </div>
                 </div>
-                <div className="school">
-                    <div className="bachelors">
-                        <img className="college-img" src={schoolLogo} alt="School Logo" />
-                        <div className="school-heading">
-                            <div className="Title">
-                                <h2>Global International Public School</h2>
-                                <p>2018-2019</p>
-                            </div>
-                            <div className="duration">
-                                <p>Higher Secondary</p>
-                            </div>
-                            <div className="school-content2">
-                                <p>
-                                    Consistently achieved Honor Roll status every semester from 9th grade to 12th grade.
-                                </p>
-                                <br />
-                                <p>
-                                    Participated in different programs to enhance team management and communication skills.
-                                </p>
-                                <br />
-                                <p>
-                                    Collaborated with club members to develop a web application for managing school records.
-                                </p>
-                                <div className="button">
-                                    <a className="button2" href="https://www.gipsdabra.com/" target="_blank" rel="noopener noreferrer">
-                                        Visit website
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                 
             </div>
             <Footer />
         </div>
