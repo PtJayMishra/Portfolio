@@ -20,30 +20,30 @@ export function Contact() {
                 </div>
                 <div className="box-content">
                     <div className="add-icon">
-                        <a className="icons" href="https://www.linkedin.com/in/akankshamishra05" target="_blank" rel="noopener noreferrer" style={{ color: "#fff" }}>
+                        <a className="icons" href="https://www.linkedin.com/in/jay-mishra-21b17b200/" target="_blank" rel="noopener noreferrer" style={{ color: "#fff" }}>
                             <FaLinkedin size={40} />
                             <h3>Linkedin</h3>
                         </a>
                     </div>
                     <div className="add-icon">
-                        <a className="icons" href="https://github.com/Akankshamishraa" target="_blank" rel="noopener noreferrer" style={{ color: "#fff" }}>
+                        <a className="icons" href="https://github.com/PtJayMishra" target="_blank" rel="noopener noreferrer" style={{ color: "#fff" }}>
                             <FaGithub size={40} />
                             <h3>Github</h3>
                         </a>
                     </div>
                     <div className="add-icon">
-                        <a className="icons" href="mailto:akankshamishra0805@gmail.com" target="_blank" rel="noopener noreferrer" style={{ color: "#fff" }}>
+                        <a className="icons" href="mailto:jay123mishrapt@gmail.com" target="_blank" rel="noopener noreferrer" style={{ color: "#fff" }}>
                             <FaMailBulk size={40} />
                             <h3>Email</h3>
                         </a>
                     </div>
                 </div>
                 <div className="cont-btn">
-                    <a className="cont-btn2" href="https://drive.google.com/file/d/1CErfpHksDvgSlz4WjG15WmHAj2G6GJzU/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+                    <a className="cont-btn2" href=" " target="_blank" rel="noopener noreferrer">
                         See My Resume
                     </a>
                 </div>
-                <p className="foot-para">Made with <FaHeart size={30} /> by Akanksha Mishra</p>
+                <p className="foot-para">Made with <FaHeart size={30} /> by Jay Mishra</p>
             </div>
         </div>
     );
