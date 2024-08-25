@@ -8,24 +8,24 @@ function Footer(){
                 <div className="footer" >
            
       
-      <a className="foot-icon" href="https://www.linkedin.com/in/akankshamishra05" target="_blank" rel="noopener noreferrer" style={{color:" #fff"}}  >  <FaLinkedin size={40}/>
+      <a className="foot-icon" href="https://www.linkedin.com/in/jay-mishra-21b17b200/" target="_blank" rel="noopener noreferrer" style={{color:" #fff"}}  >  <FaLinkedin size={40}/>
       <h3>Linkedin</h3>
       </a>
     
     
       
-      <a className="foot-icon" href="https://github.com/Akankshamishraa" target="_blank" rel="noopener noreferrer" style={{color:" #fff"}} >  <FaGithub size={40}/>
+      <a className="foot-icon" href="https://github.com/PtJayMishra " target="_blank" rel="noopener noreferrer" style={{color:" #fff"}} >  <FaGithub size={40}/>
       <h3>Github</h3>
       </a>
     
  
       
-      <a className="foot-icon" href="mailto:akankshamishra0805@gmail.com" target="_blank" rel="noopener noreferrer" style={{color:" #fff"}} > <FaMailBulk size={40}/>
+      <a className="foot-icon" href="mailto:jay123mishrapt@gmail.com " target="_blank" rel="noopener noreferrer" style={{color:" #fff"}} > <FaMailBulk size={40}/>
       <h3>Email</h3>
       </a>
     </div>
     
-                <p className="foot-para">Made with <FaHeart size={30}></FaHeart> by Akanksha Mishra</p>
+                <p className="foot-para">Made with <FaHeart size={30}></FaHeart> by Jay Mishra</p>
 
             </div>
 
