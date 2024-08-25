@@ -14,7 +14,6 @@ function Navbar(){
                 <li><Link to="/" className="nav-home">Home</Link></li>
                 <li><Link to="/skills" className="nav-home">Skills</Link></li>
                 <li><Link to="/education" className="nav-home">Education</Link></li>
-                <li><Link to="/experience" className="nav-home">Experience</Link></li>
                 <li><Link to="/projects" className="nav-home">Projects</Link></li>
                 <li><Link to="/contact" className="nav-home">Contact Me</Link></li>
             </ul>
