@@ -1,0 +1,55 @@
+.foot-container {
+    display: flex;
+    flex-direction: column; /* Display items vertically */
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem; /* Added padding for spacing */
+    border-radius: 1rem; /* Boxy shape */
+  }
+  
+  .footer {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center;
+    gap: 2rem; /* Spacing between items */
+  }
+  
+  .foot-content {
+    text-align: center;
+    margin-bottom: 1rem; /* Added margin-bottom for spacing */
+  }
+  
+  .foot-icon {
+    width: 10rem;
+    height: 6rem;
+    border-radius: 1rem; /* Boxy shape */
+    border: 2px solid #6852ba;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .foot-para {
+    margin-top: 1rem; /* Adjusted margin-top */
+    font-size: 1.2rem; /* Adjusted font-size */
+    color: #fff; /* Changed text color */
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media screen and (max-width: 768px) {
+    .foot-container {
+      padding: 1rem; /* Adjusted padding for smaller screens */
+    }
+    
+    .foot-content {
+      flex: 1 1 100%; /* Set width to 100% on smaller screens */
+      max-width: 200px; /* Limit maximum width for better responsiveness */
+    }
+    
+    .foot-icon {
+      width: 8rem; /* Adjusted width for smaller screens */
+      height: 5rem; /* Adjusted height for smaller screens */
+    }
+  }
+  

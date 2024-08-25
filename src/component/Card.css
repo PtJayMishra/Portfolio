@@ -1,0 +1,41 @@
+.cards-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 60px; 
+  padding: 20px;
+  /* margin-top: 7rem;  */
+  max-width: 1200px; /* Set maximum width for better responsiveness */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%; 
+  padding: 15px 20px 0 20px;
+}
+
+.card h2 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem; /* Adjust font size for better readability */
+}
+
+.card-content {
+  font-size: 1.1rem; /* Adjust font size for better readability */
+  max-height: 400px; /* Limit the maximum height of the card content */
+  overflow-y: auto; /* Enable vertical scrolling for overflow */
+}
+
+@media screen and (min-width: 768px) {
+  .cards-container {
+      flex-direction: column;
+  }
+
+  .card {
+      width: 100%; /* Adjust card width for larger screens */
+  }
+}

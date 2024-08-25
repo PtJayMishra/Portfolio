@@ -1,0 +1,94 @@
+/* Your existing CSS code */
+.hero-container {
+    padding: 0rem 2rem; /* Adjusted padding for spacing */
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 138px; /* Removed negative margin */
+    padding-top: 20px;
+    height: 394px;
+  }
+  .iamge{
+    width: 50%;
+  }
+  
+  .para-content {
+    text-align: center;
+  }
+  
+  .hero-para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding-right: 50px;
+    font-size: large;
+  }
+  
+  .hero-para p {
+    width: 100%;
+  }
+  
+  .tech-img {
+    max-width: 100%;
+    /* height: auto; */
+    border-radius: 2rem;
+    height: 337px;
+    width: 700px;
+  }
+  
+  .about-container {
+    margin-top: 3rem; /* Adjusted margin-top */
+    flex: 0 0 51%;
+  }
+  
+  .about-container h1 {
+    margin-bottom: 2rem; /* Adjusted margin-bottom */
+    text-align: center;
+  }
+  
+  .about-heading {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .about-content {
+    flex: 1 1 50%; /* Take up 50% of the width */
+  }
+  
+  .about-img {
+    max-width: 100%;
+    border-radius: 2rem;
+    height: 427px;
+    width: 450px;
+
+  }
+  
+  .about-para {
+    margin-top: 2rem; /* Adjusted margin-top */
+    text-align: center;
+  }
+  
+  /* .about-para p {
+    font-size: 1.2rem;
+  } */
+  .tech-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 33px;
+  }
+  .front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

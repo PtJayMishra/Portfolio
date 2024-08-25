@@ -1,0 +1,279 @@
+/* General styles */
+.skill-container {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.skill-img {
+    height: auto;
+    width: 50%;
+    max-width: 460px;
+    border-radius: 1.8rem;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.main-content {
+    margin: 2rem 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content p {
+    margin-top: 1rem;
+}
+
+.content-container {
+    width: 50%;
+    max-width: 600px;
+    padding: 2rem;
+    margin: 1rem auto;
+}
+
+.heading1 {
+    text-align: center;
+    /* text-decoration: underline; */
+    text-underline-offset: 10px;
+    /* text-decoration-thickness: 5px; */
+    margin-bottom: 2rem;
+}
+
+.bar {
+    font-size: 1.2rem;
+}
+
+.Technical-bars .bar {
+    margin-top: 2rem;
+}
+
+.Technical-bars .bar:first-child {
+    margin-top: 0;
+}
+
+.Technical-bars .bar .info {
+    margin-bottom: 31px;
+}
+
+.Technical-bars .bar .info span {
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0;
+    animation: animate-text 0.5s linear forwards 1s;
+}
+
+.Technical-bars .bar .progress-line {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: #ccc;
+}
+
+.Technical-bars .bar .progress-line span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate-line 1s cubic-bezier(1, 0, 0.5, 1) forwards 1s;
+}
+
+.Technical-bars .bar .progress-line span::after {
+    position: absolute;
+    padding: 1px 8px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 3px;
+    top: -28px;
+    opacity: 0;
+    content: attr(data-percentage);
+    animation: animate-text 1s cubic-bezier(1, 0, 0.5, 1) forwards 1s;
+}
+
+.Technical-bars .bar .progress-line.html span {
+    width: 90%;
+}
+
+.Technical-bars .bar .progress-line.css span {
+    width: 80%;
+}
+
+.Technical-bars .bar .progress-line.js span {
+    width: 70%;
+}
+
+.Technical-bars .bar .progress-line.react span {
+    width: 70%;
+}
+
+.container1 {
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.radial-bars {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.radial-bars .radial-bar {
+    width: 40%;
+    max-width: 150px;
+    height: auto;
+    margin: 1rem;
+    position: relative;
+    text-align: center;
+}
+
+.radial-bars .radial-bar svg {
+    width: 121px;
+    height: 120px;
+}
+
+.progress-bar {
+    stroke-width: 10;
+    stop-color: #000;
+    fill: transparent;
+    stroke-dasharray: 314;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+
+.path {
+    stroke-width: 10;
+    stroke: #0ef;
+    fill: transparent;
+    stroke-dasharray: 314;
+    stroke-dashoffset: 314;
+    stroke-linecap: round;
+}
+
+.path-1 { animation: animate-path1 2s 1s linear forwards; }
+.path-2 { animation: animate-path2 2s 1s linear forwards; }
+.path-3 { animation: animate-path3 2s 1s linear forwards; }
+.path-4 { animation: animate-path4 2s 1s linear forwards; }
+
+@keyframes animate-line {
+    100% { transform: scaleX(1); }
+}
+
+@keyframes animate-text {
+    100% { opacity: 1; }
+}
+
+@keyframes animate-bar {
+    100% { stroke-dashoffset: -1; }
+}
+
+@keyframes animate-path1 {
+    100% { stroke-dashoffset: 31.4; }
+}
+
+@keyframes animate-path2 {
+    100% { stroke-dashoffset: 125.6; }
+}
+
+@keyframes animate-path3 {
+    100% { stroke-dashoffset: 125.6; }
+}
+
+@keyframes animate-path4 {
+    100% { stroke-dashoffset: 125.6; }
+}
+
+.radial-bar .percentage {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    animation: showText 0.5s linear forwards 1s;
+    opacity: 1;
+}
+
+.radial-bar .text {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    animation: showText 0.5s linear forwards 1s;
+    opacity: 1;
+}
+
+.tools-box {
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 100%; */
+    justify-content: center;
+    /* gap: 1rem; Add gap between flex items for better spacing */
+    margin: 2rem auto;
+    gap:1rem;
+    padding: 0 1rem; /* Add padding to ensure content doesn't touch the edges */
+}
+.tool-item {
+    flex: 1 1 150px; /* Allow items to grow and shrink, setting a minimum width */
+    margin: 0.5rem; /* Add margin around items for spacing */
+    max-width: 200px; /* Optional: Set a maximum width for each item */
+    text-align: center; /* Center text inside the items */
+}
+
+.tools-heading {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.tools-code {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.tools-naming {
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: -5rem;
+}
+
+/* Media queries */
+@media (min-width: 768px) {
+    .skill-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .main-content {
+        margin: 4rem 2rem 0 4rem;
+    }
+
+    .content-container {
+        margin: 4rem auto;
+    }
+
+    .container1 {
+        margin-top: 4rem;
+    }
+
+    .radial-bars {
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 768px) {
+    .tool-item {
+        flex: 1 1 100px; /* Adjust flex basis for smaller screens */
+        max-width: 150px; /* Adjust max width for smaller screens */
+    }
+}

@@ -1,0 +1,95 @@
+/* Existing styles */
+
+/* New styles for responsiveness */
+ 
+    .edu-container {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 3rem;
+    }
+  
+    .edu-img {
+      width: 80%;
+      height: auto;
+      border-radius: 1.8rem;
+      margin: 0 auto; /* Center the image */
+    }
+  
+    .edu-content {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .edu-degree h1{
+      text-align: center;
+      margin-top: 120px;
+    }
+  
+    .grad-icon {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+  
+    .grad {
+      width: 15%;
+      height: auto;
+      border-radius: 1rem;
+      margin-left: 0.5rem;
+    }
+  
+    .school-icon {
+      width: 117%; /* Adjust image width for smaller screens */
+      height: auto;
+      border-radius: 1.5rem;
+    }
+    .edu-degree{
+      margin-top: 50px;
+    }
+  
+      .bachelors {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 1rem;
+          margin: 2rem 0;
+      }
+  
+  
+    .college-img {
+          width: 10%;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    object-fit: cover;
+    }
+  
+    .college-heading,
+    .school-heading {
+      width: 80%;
+        display: grid;
+        border-radius: 0.65rem;
+        border: 1.5px solid #6852ba;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    /* .edu-degree{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    } */
+  
+    .button1,
+    .button2 {
+  
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 1.5rem;
+      height: 23px;
+      width: 100px;
+      color: black;
+      background-color: gray;
+      margin-left: auto;
+    }
+  
+  

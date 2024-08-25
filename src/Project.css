@@ -1,0 +1,52 @@
+.project-container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.proj-box1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -80px;
+  margin-bottom: 50px;
+}
+
+
+
+.proj-heading {
+  margin: 2rem;
+  text-align: center;
+}
+
+.proj-heading p {
+  margin-top: 2rem;
+}
+
+.proj-box1 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start; /* Ensure alignment at the top */
+}
+
+.project-img {
+  /* height: auto;
+  max-width: 40%; */
+  /* margin: 0 2rem; */
+  /* width: 1200px; */
+  /* height: auto; */
+  max-width: 90%;
+  border-radius: 1.8rem;
+  margin-top: 70px;
+  height: 200px;
+  margin-right: 100px;
+  object-fit: cover;
+}
+
+.proj-heading {
+  margin: 4rem 2rem 0 0;
+  width: 50%; /* Adjust width as needed */
+  max-width: 400px; /* Limit width for larger screens */
+}
