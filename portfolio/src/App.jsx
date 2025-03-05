@@ -2,6 +2,7 @@ import { useState } from "react";
 import Main from "./components/main";
 import Navbar from "./components/navbar";
 import { Menu } from "lucide-react";
+import About from "./pages/about";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,8 @@ function App() {
 
       {/* Main Content Area */}
       <div className="flex-1">
-        <Main />
+        <Main /> 
+          <About/>
       </div>
     </div>
   );

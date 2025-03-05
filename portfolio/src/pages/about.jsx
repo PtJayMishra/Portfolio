@@ -1,11 +1,44 @@
 const About = () => {
-    return (
-      <div className="text-white p-5">
-        <h1 className="text-3xl font-bold">About Me</h1>
-        <p className="mt-4">This is the About page content.</p>
+  return (
+    <div className="text-white p-5 bg-bg1 text-left">
+      <h1 className="font-bold   text-2xl p-4">Little About Me...</h1>
+
+      <div className="container  max-w-lg sm:max-w-2xl p-6">
+        <h1 className="font-bold text-xl mb-2">Background</h1>
+        <p className="text-lg sm:text-xl">
+          B.Tech in Electronic and Communication Engineering • AI Enthusiast • Web-3 Developer • Blockchain Contributor • Product Manager • Public Speaker
+        </p>
       </div>
-    );
-  };
-  
-  export default About;
-  
+
+      <div className="bg-nav m-4 p-6 rounded-lg">
+        <h1 className="font-bold text-xl text-left mb-4">Tech Toolkit</h1>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {["TypeScript", "C++", "Node.js", "React.js", "MongoDB" , "Devops"].map((tech) => (
+            <div key={tech} className="bg-bg1 p-3 rounded-lg text-center">{tech}</div>
+          ))}
+        </div>
+      </div>
+      <div className="container text-left  max-w-lg sm:max-w-2xl  p-6 m-3 gap-2">
+        <h1 className="font-bold text-left text-2xl gap-4  m-3"> Development Philosophy</h1>
+<p className="text-gray-400 text-left   gap-4  m-3">Believe in building open, transparent systems that empower both developers and end users. Passionate about crafting user-centric products, advocating for ethical AI, and driving innovation through decentralized technologies. Dedicated to bridging technical depth with real-world impact.</p>
+      
+      <h1  className="font-bold text-left text-2xl gap-4  m-3">Community Work </h1>
+      <p  className=" text-left text-gray-400  gap-4  m-3"  >Mentored 50+ developers • Active in web 3.0 & AI communities • Led product-focused initiatives on core teams • Public speaker at conferences • Regular workshop host • Blockchain meetup organizer</p>
+      </div>
+
+       <div className="grid grid-cols-2 md:grid-cols-3 text-center font-bold hover:text-icon cursor-pointer">
+        <div className="bg-nav gap-4  m-3 rounded-lg">
+          <a href="https://x.com/0xJayMishra">Twitter</a>
+        </div>
+        <div className="bg-nav gap-4  m-3 rounded-lg">
+          <a href="https://www.linkedin.com/in/jay-mishra-21b17b200/"> Linkedin</a>
+        </div><div className="bg-nav gap-4  m-3 rounded-lg"  >
+          <a href="https://github.com/PtJayMishra"> Github</a>
+        </div>
+       </div>
+      
+    </div>
+  );
+};
+
+export default About;

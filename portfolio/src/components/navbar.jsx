@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { X } from "lucide-react";
 
+
 const Navbar = ({ setIsOpen }) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
@@ -21,7 +22,7 @@ const Navbar = ({ setIsOpen }) => {
       {/* Navigation Links */}
       <ul className="mt-8 space-y-4">
         
-        <li className="hover:text-icon cursor-pointer">About</li>
+        <li className="hover:text-icon cursor-pointer">  About </li>
         <li className="hover:text-icon cursor-pointer">Work</li>
         <li className="hover:text-icon cursor-pointer">Projects</li>
         <li className="hover:text-icon cursor-pointer">Get In Touch</li>
