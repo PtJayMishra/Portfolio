@@ -1,6 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { X } from "lucide-react";
-
 
 const Navbar = ({ setIsOpen }) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -17,22 +17,37 @@ const Navbar = ({ setIsOpen }) => {
       )}
 
       {/* Logo */}
-      <h1 className="text-2xl font-bold">Jay Mishra</h1>
+      <h1 className="text-2xl font-bold"> <Link to="/" className="hover:text-icon cursor-pointer">Jay Mishra</Link> </h1>
 
       {/* Navigation Links */}
       <ul className="mt-8 space-y-4">
-        
-        <li className="hover:text-icon cursor-pointer">  About </li>
-        <li className="hover:text-icon cursor-pointer">Work</li>
-        <li className="hover:text-icon cursor-pointer">Projects</li>
-        <li className="hover:text-icon cursor-pointer">Get In Touch</li>
+        <li>
+          <Link to="/about" className="hover:text-icon cursor-pointer">About</Link>
+        </li>
+        <li>
+          <Link to="/work" className="hover:text-icon cursor-pointer">Work</Link>
+        </li>
+        <li>
+          <Link to="/projects" className="hover:text-icon cursor-pointer">Projects</Link>
+        </li>
+        <li>
+          <Link to="/contact" className="hover:text-icon cursor-pointer">Get In Touch</Link>
+        </li>
         <br />
-        <span className="bg-nav">Quick Links </span>
-         
-        <li className="hover:text-icon cursor-pointer">Twitter</li>
-        <li className="hover:text-icon cursor-pointer">Linkedin</li>
-        <li className="hover:text-icon cursor-pointer">Github</li>
-        <li className="hover:text-icon cursor-pointer">Read CV</li>
+        <span className="bg-nav">Quick Links</span>
+
+        <li>
+          <a href="https://x.com/0xJayMishra" target="_blank" rel="noopener noreferrer" className="hover:text-icon cursor-pointer">Twitter</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jay-mishra-21b17b200/" target="_blank" rel="noopener noreferrer" className="hover:text-icon cursor-pointer">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://github.com/PtJayMishra" target="_blank" rel="noopener noreferrer" className="hover:text-icon cursor-pointer">GitHub</a>
+        </li>
+        <li>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-icon cursor-pointer">Read CV</a>
+        </li>
         <br />
       </ul>
     </nav>
